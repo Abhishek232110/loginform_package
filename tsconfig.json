@@ -1,0 +1,16 @@
+// {
+//   "compilerOptions": {
+//     "jsx": "react-jsx"
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "ES5",
+    // "module": "ES6",
+    "declaration": true,
+    "declarationDir": "dist",
+    "strict": true
+  }
+}
