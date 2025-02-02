@@ -4,13 +4,28 @@
 //   }
 // }
 
+// {
+//   "compilerOptions": {
+//     "jsx": "react-jsx",
+//     "target": "ES5",
+//     // "module": "ES6",
+//     "declaration": true,
+//     "declarationDir": "dist",
+//     "strict": true,
+//     "esModuleInterop": true, // Ensures proper handling of imports
+//     "moduleResolution": "node"
+//   }
+// }
+
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "target": "ES5",
-    // "module": "ES6",
-    "declaration": true,
-    "declarationDir": "dist",
-    "strict": true
+    "jsx": "react-jsx", // JSX transform (React 17+)
+    "target": "ES6", // Modern JavaScript (ES6 or above)
+    "declaration": true, // Generate TypeScript declaration files
+    "declarationDir": "dist", // Where to output the declaration files
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Ensure proper handling of imports (important for React)
+    "moduleResolution": "node", // Use Node module resolution strategy
+    "module": "ES6" // Use ES6 module system for bundlers
   }
 }

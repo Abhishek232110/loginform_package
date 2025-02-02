@@ -1,8 +1,12 @@
-import { useState } from "react";
+function LoginForm({ name }: { name: string }) {
+  return <div>My name is {name}</div>;
+}
+function SubstractofTwoNum({ sub1, sub2 }: { sub1: number; sub2: number }) {
+  const num1 = sub1;
+  const num2 = sub2;
+  const sub = num1 - num2;
 
-const loginForm = () => {
-  const [name, setName] = useState<string>("abhi");
-  return <div>loginForm {name}</div>;
-};
+  return <div>Substract of two number is {sub}</div>;
+}
 
-export { loginForm };
+export { SubstractofTwoNum, LoginForm };

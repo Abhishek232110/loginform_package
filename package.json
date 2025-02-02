@@ -1,7 +1,7 @@
 {
-  "name": "loginform",
-  "version": "1.0.0",
-  "main": "dist/index.ts",
+  "name": "validationloginform",
+  "version": "1.0.13",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
@@ -12,14 +12,23 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^12.1.2",
-    "@types/react": "^19.0.8",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "@types/react": "^19.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "rollup": "^4.34.0",
     "tslib": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/react-dom": "^19.0.3"
   }
 }
